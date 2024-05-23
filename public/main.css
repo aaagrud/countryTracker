@@ -1,0 +1,54 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #31363F;
+    overflow: hidden;
+}
+
+form {
+    padding: 1em;
+    text-align: center;
+}
+
+.input-button {
+    display: flex;
+    flex-direction: row;
+}
+
+h2 {
+    font-size: large;
+    padding: 1em;
+}
+
+button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0.5em;
+}
+
+input[type="text"] {
+    background-color: #EEEEEE;
+    width: 25vw; /* Use viewport width for responsive sizing */
+    padding: 0.5em;
+    margin: 0.5em;
+    border-radius: 0.25em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.total-count {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #EEEEEE;
+}
+
+.ag-canvas {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.ag-canvas_svg path {
+    fill: #EEEEEE;
+}
